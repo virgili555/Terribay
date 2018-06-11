@@ -1,0 +1,18 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "windows":
+        {
+            "type": "shell",
+            "command": "./dm.sh",
+            "args": [
+                "baystation12.dme"
+            ],
+        },
+        "problemMatchers": [],
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    }
