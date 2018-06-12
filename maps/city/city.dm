@@ -7,6 +7,8 @@
 	#include "city_holodecks.dm"
 	#include "city_presets.dm"
 	#include "city_shuttles.dm"
+	#include "city_turfs.dm"
+	#include "city_walls.dm"
 
 	#include "city_unit_testing.dm"
 	#include "city_zas_tests.dm"
@@ -21,13 +23,13 @@
 
 	#include "../shared/exodus_torch/_include.dm"
 
-	#include "city-1.dmm"
+	//#include "city-1.dmm"
 	#include "city-2.dmm"
-	#include "city-3.dmm"
-	#include "city-4.dmm"
-	#include "city-5.dmm"
-	#include "city-6.dmm"
-	#include "city-7.dmm"
+	//#include "city-3.dmm"
+	//#include "city-4.dmm"
+	//#include "city-5.dmm"
+	//#include "city-6.dmm"
+	//#include "city-7.dmm"
 
 	#include "../../code/modules/lobby_music/absconditus.dm"
 	#include "../../code/modules/lobby_music/clouds_of_fire.dm"

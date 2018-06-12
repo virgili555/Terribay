@@ -1,8 +1,7 @@
-
-/datum/map/exodus
-	name = "Exodus"
-	full_name = "NSS Exodus"
-	path = "exodus"
+/datum/map/city
+	name = "City"
+	full_name = "Sorl City"
+	path = "city"
 
 	lobby_icon = 'maps/exodus/exodus_lobby.dmi'
 
@@ -17,8 +16,8 @@
 	accessible_z_levels = list("1" = 5, "2" = 5, "4" = 10, "5" = 15, "7" = 60)
 	base_turf_by_z = list("6" = /turf/simulated/floor/asteroid/airless) // Moonbase
 
-	station_name  = "NSS Exodus"
-	station_short = "Exodus"
+	station_name  = "Sorl City"
+	station_short = "City"
 	dock_name     = "NAS Crescent"
 	boss_name     = "Central Command"
 	boss_short    = "Centcomm"
@@ -32,8 +31,3 @@
 	shuttle_recall_message = "The scheduled crew transfer has been cancelled."
 
 	evac_controller_type = /datum/evacuation_controller/shuttle
-
-/datum/map/exodus/perform_map_generation()
-	new /datum/random_map/automata/cave_system(null, 1, 1, 6, 255, 255) // Create the mining Z-level.
-	new /datum/random_map/noise/ore(null, 1, 1, 6, 64, 64)         // Create the mining ore distribution map.
-	return 1
